@@ -1,11 +1,11 @@
 def prime?(number)
   max = Math.sqrt(number)
-  (1..max).any? do |i| 
+  (2..max).any? do |i| 
     if number == 1
       false
-    elsif number <= -1
+    elsif number <= 0
       false
-    elsif number % 1 == 0
+    elsif number % i == 0
       false
     else
       true
