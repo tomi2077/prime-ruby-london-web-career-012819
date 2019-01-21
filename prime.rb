@@ -3,7 +3,6 @@ def prime?(number)
     (2...number).all? do |i|
       number % i != 0
     end
-    return true
   else
     return false
   end
