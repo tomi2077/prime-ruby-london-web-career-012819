@@ -1,4 +1,8 @@
 def prime?(number)
+  if number <=0 
+    return false
+  elsif 
+  
   max = Math.sqrt(number)
   (2..max).any? do |i| 
     if number == 1
